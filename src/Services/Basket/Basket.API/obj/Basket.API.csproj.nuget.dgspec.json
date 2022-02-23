@@ -4,14 +4,14 @@
     "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj": {
+    "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj",
-        "projectName": "Basket.API",
-        "projectPath": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj",
+        "projectUniqueName": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+        "projectName": "Common.Logging",
+        "projectPath": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
         "packagesPath": "C:\\Users\\Jarre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\Services\\Basket\\Basket.API\\obj\\",
+        "outputPath": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\BuildingBlocks\\Common.Logging\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jarre\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,13 +40,272 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[8.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj",
+        "projectName": "EventBus.Messages",
+        "projectPath": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj",
+        "packagesPath": "C:\\Users\\Jarre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\BuildingBlocks\\EventBus.Messages\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jarre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj",
+        "projectName": "Basket.API",
+        "projectPath": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj",
+        "packagesPath": "C:\\Users\\Jarre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\Services\\Basket\\Basket.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jarre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+                "projectPath": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
+              },
+              "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj": {
+                "projectPath": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj"
+              },
+              "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj": {
+                "projectPath": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.Redis": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.42.0, )"
+            },
+            "MassTransit": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "MassTransit.RabbitMQ": {
+              "target": "Package",
+              "version": "[7.3.1, )"
+            },
+            "Microsoft.Extensions.Caching.StackExchangeRedis": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
               "version": "[1.14.0, )"
             },
+            "StackExchange.Redis": {
+              "target": "Package",
+              "version": "[2.2.88, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj",
+        "projectName": "Discount.Grpc",
+        "projectPath": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj",
+        "packagesPath": "C:\\Users\\Jarre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\Services\\Discount\\Discount.Grpc\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Jarre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+                "projectPath": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.40.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.14.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.3, )"
             }
           },
           "imports": [

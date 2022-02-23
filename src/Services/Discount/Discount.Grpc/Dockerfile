@@ -3,14 +3,14 @@
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
 EXPOSE 80
-EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["Discount.Grpc.csproj", "."]
-RUN dotnet restore "./Discount.Grpc.csproj"
+COPY ["Services/Discount/Discount.Grpc/Discount.Grpc.csproj", "Services/Discount/Discount.Grpc/"]
+COPY ["BuildingBlocks/Common.Logging/Common.Logging.csproj", "BuildingBlocks/Common.Logging/"]
+RUN dotnet restore "Services/Discount/Discount.Grpc/Discount.Grpc.csproj"
 COPY . .
-WORKDIR "/src/."
+WORKDIR "/src/Services/Discount/Discount.Grpc"
 RUN dotnet build "Discount.Grpc.csproj" -c Release -o /app/build
 
 FROM build AS publish

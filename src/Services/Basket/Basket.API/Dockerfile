@@ -3,14 +3,15 @@
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
 EXPOSE 80
-EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["Basket.API.csproj", "."]
-RUN dotnet restore "./Basket.API.csproj"
+COPY ["Services/Basket/Basket.API/Basket.API.csproj", "Services/Basket/Basket.API/"]
+COPY ["BuildingBlocks/EventBus.Messages/EventBus.Messages.csproj", "BuildingBlocks/EventBus.Messages/"]
+COPY ["BuildingBlocks/Common.Logging/Common.Logging.csproj", "BuildingBlocks/Common.Logging/"]
+RUN dotnet restore "Services/Basket/Basket.API/Basket.API.csproj"
 COPY . .
-WORKDIR "/src/."
+WORKDIR "/src/Services/Basket/Basket.API"
 RUN dotnet build "Basket.API.csproj" -c Release -o /app/build
 
 FROM build AS publish
