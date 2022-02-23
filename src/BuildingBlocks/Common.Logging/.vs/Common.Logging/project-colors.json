@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3ab9ed82-ce64-4e7a-bd72-c3678276be9a": {
+      "ProjectGuid": "3ab9ed82-ce64-4e7a-bd72-c3678276be9a",
+      "DisplayName": "Common.Logging",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1cdff5a0-19c1-4dac-8949-f7069d56ea04": {
+      "ProjectGuid": "1cdff5a0-19c1-4dac-8949-f7069d56ea04",
+      "DisplayName": "Ordering.Infrastructure",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

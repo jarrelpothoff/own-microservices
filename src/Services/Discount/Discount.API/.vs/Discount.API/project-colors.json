@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9454f1d7-7dff-44fb-a28b-d2e442b74aed": {
+      "ProjectGuid": "9454f1d7-7dff-44fb-a28b-d2e442b74aed",
+      "DisplayName": "Discount.API",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

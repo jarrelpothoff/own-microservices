@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6374b505-36dd-4c9e-83d1-4b230eb8e54e": {
+      "ProjectGuid": "6374b505-36dd-4c9e-83d1-4b230eb8e54e",
+      "DisplayName": "Ordering.Domain",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
