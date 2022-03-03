@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Gzos1tSBUoQbI+UK7kb+pNSA99RHOUIRG1y8IDkgBGE+qqLHzzhPzau0umW7fw5gux+B/flwByRdIExVeS6MtQ==",
+  "dgSpecHash": "/n1dcVgTXVHQUjiOk/W5RP0B0vPyoSs7juWhIl9jkbD/2PKIvhxqkJLLz1d1Hlwys0VwzqmWIHBsQEA7Ug0tDQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\peter\\source\\repos\\own-microservices\\src\\Services\\Ordering\\Ordering.Infrastructure\\Ordering.Infrastructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

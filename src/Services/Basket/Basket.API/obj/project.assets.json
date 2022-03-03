@@ -5027,19 +5027,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Jarre\\.nuget\\packages\\": {}
+    "C:\\Users\\peter\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj",
+      "projectUniqueName": "C:\\Users\\peter\\source\\repos\\own-microservices\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj",
       "projectName": "Basket.API",
-      "projectPath": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj",
-      "packagesPath": "C:\\Users\\Jarre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\Services\\Basket\\Basket.API\\obj\\",
+      "projectPath": "C:\\Users\\peter\\source\\repos\\own-microservices\\src\\Services\\Basket\\Basket.API\\Basket.API.csproj",
+      "packagesPath": "C:\\Users\\peter\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\peter\\source\\repos\\own-microservices\\src\\Services\\Basket\\Basket.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Jarre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\peter\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5053,14 +5053,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
-              "projectPath": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
+            "C:\\Users\\peter\\source\\repos\\own-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+              "projectPath": "C:\\Users\\peter\\source\\repos\\own-microservices\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
             },
-            "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj": {
-              "projectPath": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj"
+            "C:\\Users\\peter\\source\\repos\\own-microservices\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj": {
+              "projectPath": "C:\\Users\\peter\\source\\repos\\own-microservices\\src\\BuildingBlocks\\EventBus.Messages\\EventBus.Messages.csproj"
             },
-            "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj": {
-              "projectPath": "C:\\Users\\Jarre\\source\\repos\\own-microservices\\src\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj"
+            "C:\\Users\\peter\\source\\repos\\own-microservices\\src\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj": {
+              "projectPath": "C:\\Users\\peter\\source\\repos\\own-microservices\\src\\Services\\Discount\\Discount.Grpc\\Discount.Grpc.csproj"
             }
           }
         }
@@ -5142,7 +5142,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }
